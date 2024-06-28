@@ -19,14 +19,18 @@ namespace LoginVinform
 
         private void btn_login_Click(object sender, EventArgs e)
         {
+            string isim = txt_Username.Text;
             string şifre = txt_password.Text;
             string gmail = txt_email.Text;
 
             try
             {
-                if (şifre == "admin" && gmail == "admin@gmail.com")
+                if (şifre == "admin" && gmail == "admin@gmail.com" && isim == "ege")
                 {
-                    MessageBox.Show("Başarılı  bir şekilde giriş yaptınız");
+                    MessageBox.Show($"Başarılı  bir şekilde giriş yaptınız, Hoşgeldin {isim}!");
+                    form2 form2 = new form2();
+                    form2.Show();
+                    this.Hide();
                 }
                 else
                 {
@@ -44,5 +48,12 @@ namespace LoginVinform
         {
             txt_password.PasswordChar = Cb_Created.Checked ? '\0' : '*';
         }
+
+        private void btn_cancel_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+
     }
 }
