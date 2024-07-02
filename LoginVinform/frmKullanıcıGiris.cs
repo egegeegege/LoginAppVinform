@@ -18,6 +18,7 @@ namespace LoginVinform
         string Sifre = "";
         string Email = "";
         int id;
+
         public frmKullanıcıGiris()
         {
             InitializeComponent();
@@ -25,8 +26,34 @@ namespace LoginVinform
 
         private void btn_login_Click(object sender, EventArgs e)
         {
-            List<UserItem> ynt = new List<UserItem>();
-            // buradan devam et
+
+            List<UserItem> users = new List<UserItem>();
+            users = db.UserItems.Where(y => y.Email == txt_email.Text).ToList();
+
+            foreach (UserItem ıtem in users)
+            {
+
+                Sifre = ıtem.Sifre.ToString();
+                Email = ıtem.Email.ToString();
+                id = ıtem.ID;
+            }
+           
+                if (Sifre == txt_password.Text)
+                {
+                    if (Email == txt_email.Text)
+                    {
+                        MessageBox.Show("Başarılı bir şekilde giriş yaptınız");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Email Hatalı");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Şifre Hatalı");
+                }   
+           
         }
 
         private void Cb_Created_CheckedChanged(object sender, EventArgs e)

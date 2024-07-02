@@ -53,7 +53,7 @@
             this.Cb_Created.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Cb_Created.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Cb_Created.ForeColor = System.Drawing.Color.White;
-            this.Cb_Created.Location = new System.Drawing.Point(165, 389);
+            this.Cb_Created.Location = new System.Drawing.Point(173, 389);
             this.Cb_Created.Name = "Cb_Created";
             this.Cb_Created.Size = new System.Drawing.Size(149, 22);
             this.Cb_Created.TabIndex = 14;
@@ -66,7 +66,7 @@
             this.btn_cancel.BackColor = System.Drawing.Color.Red;
             this.btn_cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_cancel.ForeColor = System.Drawing.Color.White;
-            this.btn_cancel.Location = new System.Drawing.Point(273, 447);
+            this.btn_cancel.Location = new System.Drawing.Point(293, 447);
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(101, 37);
             this.btn_cancel.TabIndex = 12;
@@ -78,12 +78,13 @@
             this.btn_signUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn_signUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_signUp.ForeColor = System.Drawing.Color.White;
-            this.btn_signUp.Location = new System.Drawing.Point(107, 447);
+            this.btn_signUp.Location = new System.Drawing.Point(127, 447);
             this.btn_signUp.Name = "btn_signUp";
             this.btn_signUp.Size = new System.Drawing.Size(101, 37);
             this.btn_signUp.TabIndex = 13;
             this.btn_signUp.Text = "Sign Up";
             this.btn_signUp.UseVisualStyleBackColor = false;
+            this.btn_signUp.Click += new System.EventHandler(this.btn_signUp_Click);
             // 
             // txt_email
             // 
@@ -146,9 +147,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::LoginVinform.Properties.Resources.avatar_design;
-            this.pictureBox1.Location = new System.Drawing.Point(509, 62);
+            this.pictureBox1.Location = new System.Drawing.Point(507, 49);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(418, 379);
+            this.pictureBox1.Size = new System.Drawing.Size(461, 435);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -175,10 +176,10 @@
             // txt_adres
             // 
             this.txt_adres.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_adres.Location = new System.Drawing.Point(154, 258);
+            this.txt_adres.Location = new System.Drawing.Point(158, 258);
             this.txt_adres.Multiline = true;
             this.txt_adres.Name = "txt_adres";
-            this.txt_adres.Size = new System.Drawing.Size(204, 76);
+            this.txt_adres.Size = new System.Drawing.Size(200, 76);
             this.txt_adres.TabIndex = 7;
             // 
             // label5
@@ -197,7 +198,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.linkLabel1.LinkColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(132, 361);
+            this.linkLabel1.Location = new System.Drawing.Point(146, 354);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(252, 17);
             this.linkLabel1.TabIndex = 15;

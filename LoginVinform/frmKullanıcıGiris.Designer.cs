@@ -84,7 +84,7 @@
             this.btn_login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_login.ForeColor = System.Drawing.Color.White;
-            this.btn_login.Location = new System.Drawing.Point(606, 351);
+            this.btn_login.Location = new System.Drawing.Point(624, 371);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(101, 37);
             this.btn_login.TabIndex = 3;
@@ -97,7 +97,7 @@
             this.btn_cancel.BackColor = System.Drawing.Color.Red;
             this.btn_cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_cancel.ForeColor = System.Drawing.Color.White;
-            this.btn_cancel.Location = new System.Drawing.Point(765, 351);
+            this.btn_cancel.Location = new System.Drawing.Point(803, 371);
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(101, 37);
             this.btn_cancel.TabIndex = 3;
@@ -112,7 +112,7 @@
             this.Cb_Created.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Cb_Created.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Cb_Created.ForeColor = System.Drawing.Color.White;
-            this.Cb_Created.Location = new System.Drawing.Point(675, 269);
+            this.Cb_Created.Location = new System.Drawing.Point(675, 278);
             this.Cb_Created.Name = "Cb_Created";
             this.Cb_Created.Size = new System.Drawing.Size(149, 22);
             this.Cb_Created.TabIndex = 4;
@@ -135,7 +135,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.linkLabel1.LinkColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(696, 298);
+            this.linkLabel1.Location = new System.Drawing.Point(702, 316);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(101, 17);
             this.linkLabel1.TabIndex = 5;
